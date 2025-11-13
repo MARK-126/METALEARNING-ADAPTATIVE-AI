@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# PyTorch
+*.pth
+*.pt
+checkpoints/
+*.ckpt
+
+# Datasets (archivos grandes)
+datasets/*.zip
+datasets/*.tar.gz
+datasets/*.npy
+datasets/omniglot/
+datasets/mini-imagenet/
+datasets/cifar/
+*.hdf5
+*.h5
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+runs/
+tensorboard_logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Model outputs
+outputs/
+results/
+models/
+saved_models/
+
+# System files
+.DS_Store
+Thumbs.db
