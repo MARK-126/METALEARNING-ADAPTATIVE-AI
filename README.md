@@ -27,27 +27,34 @@ Estos tutoriales están diseñados con una metodología **práctica e interactiv
 4. **💡 Pistas**: Sistema de pistas progresivas para ayudarte cuando te atores
 5. **🎨 Visualización**: Gráficas y visualizaciones para entender mejor los conceptos
 
-## 📋 Contenido del Curso
+## 📋 Contenido del Curso (🌟 12 Tutoriales Completos!)
 
 ### 🧠 Módulo 1: Fundamentos
 Establece las bases conceptuales del Meta-Learning y su importancia.
 
 - **01_introduccion_meta_learning.ipynb**: Conceptos básicos, diferencias con ML tradicional y Transfer Learning
-- **02_curva_aprendizaje.ipynb**: Comparación de velocidades de adaptación entre diferentes paradigmas
+- **02_curva_aprendizaje_comparacion.ipynb**: Comparación cuantitativa de velocidades de adaptación
 
 ### 🛠️ Módulo 2: Algoritmos Clave
 Implementación práctica de los algoritmos más importantes de Meta-Learning.
 
 - **03_prototypical_networks.ipynb**: Redes prototípicas para clasificación Few-Shot
-- **04_maml.ipynb**: Model-Agnostic Meta-Learning - El algoritmo estrella
-- **05_recurrent_meta_learning.ipynb**: Meta-Learning con memoria usando RNNs
+- **03b_datasets_reales.ipynb**: ⭐ **NUEVO** - Trabajando con Omniglot y datasets reales, samplers N-way K-shot
+- **03c_matching_networks.ipynb**: ⭐ **NUEVO** - Matching Networks con mecanismos de atención
+- **04_maml.ipynb**: Model-Agnostic Meta-Learning - El algoritmo estrella con gradientes de segundo orden
+- **05_meta_learning_memoria.ipynb**: Meta-Learning con memoria usando RNNs/LSTMs como optimizadores
 
 ### 🌐 Módulo 3: Aplicaciones al Mundo Real
 Puente hacia la IA adaptativa en entornos dinámicos.
 
 - **06_meta_rl.ipynb**: Meta Reinforcement Learning para adaptación rápida en entornos
-- **07_skill_discovery.ipynb**: Aprendizaje de habilidades reutilizables
-- **08_generalizacion_ood.ipynb**: Generalización Out-of-Distribution
+- **07_skill_discovery.ipynb**: ⭐ **NUEVO** - Aprendizaje de habilidades reutilizables y composición
+- **08_generalizacion_ood.ipynb**: ⭐ **NUEVO** - Generalización Out-of-Distribution y robustez en deployment
+
+### 🎓 Proyecto Final
+Integración completa de todos los conceptos aprendidos.
+
+- **09_proyecto_final.ipynb**: ⭐ **NUEVO** - Sistema end-to-end con Omniglot, evaluación estándar y benchmarking
 
 ## 🚀 Instalación y Configuración
 
@@ -136,11 +143,14 @@ METALEARNING-ADAPTATIVE-AI/
 
 ## 📈 Progreso Recomendado
 
-- **Semana 1**: Módulo 1 (Fundamentos)
-- **Semana 2-3**: Módulo 2 (Algoritmos Clave)
-- **Semana 4-5**: Módulo 3 (Aplicaciones al Mundo Real)
+- **Semana 1**: Módulo 1 (Fundamentos) - 2 tutoriales
+- **Semana 2-4**: Módulo 2 (Algoritmos Clave) - 5 tutoriales incluyendo datasets reales
+- **Semana 5-6**: Módulo 3 (Aplicaciones al Mundo Real) - 3 tutoriales
+- **Semana 7**: Proyecto Final - Integración completa
 
-**Tiempo estimado total**: 30-40 horas de estudio activo
+**Tiempo estimado total**: 40-50 horas de estudio activo
+
+**Ruta rápida (intensiva)**: Puedes completar en 2-3 semanas dedicando 15-20 horas/semana
 
 ## 🤝 Contribuciones
 
